@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>login</title>
+  </head>
+  <body>
+    <main id="main-holder">
+      <h1 id="Login-heading">Hello</h1>
+
+      <div id="both-password">
+        <p id="p"></p>
+      </div>
+      
+      <form id="login"action="index.html">
+        <label for="fname" id="user-name">Name :</label>
+        <input type="text" id="ans-user-name"name="name" placeholder="FullName">
+        <label for="e-mail" id="e-mail">E-Mail</label>
+        <input type="text" id="ans-email" name="mail"placeholder="abc@xyz.com">
+        <label for="1_pass" id="pass">Password</label>
+        <input type="password" id="ans-pass" required>
+        <label for="confirm_pass" id="cpass">Confirm Password</label>
+        <input type="password" id="ans-c-pass" required>
+        <input type="button" id="submit" value="LOGIN" onclick=check()>
+        <div class="sign-up-link">Not a member?<a class="a"href="#">Signup</a></div>
+        <div class="sign-up-link "><a class="a"href="#">Forgot password?</a></div>
+
+      </form>
+    </main>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
